@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.timer-container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.btn-add {
+    background-color: #28a745;
+}
+
+.btn-clear {
+    background-color: #dc3545;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+#timers-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#timers-table th, #timers-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#timers-table th {
+    background-color: #f2f2f2;
+}
+
+#timers-table td button {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#timers-table td button:hover {
+    background-color: #0056b3;
+}
+
+#timers-table td .fa {
+    margin: 0;
+}
